@@ -3,6 +3,9 @@
 ```
 kubeadm token create --print-join-command
 ```
-#run above and it will give a token, run that token on worker nodes to join the cluster
+#run above on master node 
+it will give an o/p like kubeadm join ...
+
+# Run that on all worker nodes
 
 
