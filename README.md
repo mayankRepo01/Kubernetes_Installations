@@ -29,7 +29,7 @@ Log out of all three servers and log back in to see these changes take effect.
 # The execute the common.sh file on all nodes
 # Execute Master.sh on master node
 ```
-kubeadm token create --print-join-command
+sudo kubeadm token create --print-join-command
 ```
 #run above on master node 
 it will give an o/p like kubeadm join ...
